@@ -1,0 +1,23 @@
+body {
+    background-image: url('fundo-hora-aventura.jpg'); /* Adicione uma imagem temática */
+    background-size: cover;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+button {
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}

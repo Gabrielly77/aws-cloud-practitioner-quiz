@@ -43,7 +43,7 @@ def executar_quiz():
             else:
                 print(f"Errado! A resposta correta é: {item['resposta']}\n")
         except (ValueError, IndexError):
-            print("⚠️ Entrada inválida. Tente novamente.\n")
+            print("Entrada inválida. Tente novamente.\n")
 
     print(f"Você acertou {pontos} de {len(quiz_data)} perguntas.")
 
